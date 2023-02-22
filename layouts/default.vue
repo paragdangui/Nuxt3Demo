@@ -9,6 +9,7 @@
 					</li>
 					<li><NuxtLink to="/about"> About </NuxtLink></li>
 					<li><NuxtLink to="/products" class="btn"> Products </NuxtLink></li>
+					<li><NuxtLink to="/products/23"> Broken Link </NuxtLink></li>
 				</ul>
 			</nav>
 		</header>

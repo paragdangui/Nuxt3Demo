@@ -1,5 +1,12 @@
 <template>
-	<ProductDetails :product="product" />
+	<div>
+		<!-- overwriting global meta data approach 2 -->
+		<Head>
+			<Title> Nuxt Dojo | {{ product.title }} </Title>
+			<Meta name="description" :content="product.description"></Meta>
+		</Head>
+		<ProductDetails :product="product" />
+	</div>
 </template>
 
 <script setup>
